@@ -24,7 +24,7 @@ def read_data(url):
     train = pd.DataFrame(text_dict)
     return(train)
 
-train = read_data("languages.csv")
+train = read_data("https://raw.githubusercontent.com/ishantjuyal/Language-Detection/main/Dataset/languages.csv")
 train.head()
 
 Y = train[['german', 'french', 'spanish', 'english']]
