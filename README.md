@@ -16,7 +16,7 @@ You can access the dataset [here.](https://github.com/ishantjuyal/Language-Detec
 
 ### Approach
 
-I used Neural Networks (without any LSTMs) to train the modelling. I did use embeddings for converting word tokens to vectors/ embeddings.
+I used Neural Networks (without any LSTMs) to train the model. I did use embeddings for converting word tokens to word vectors/ word embeddings.
 
 ### Performance
 
